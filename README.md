@@ -28,6 +28,7 @@ This project builds two machine learning solutions for a retail marketing client
 .
 ├── Income_prediction_and_customer_segmentation.ipynb
 ├── Income_prediction_and_customer_segmentation_report.docx
+├── Income_prediction_and_customer_segmentation_report.pdf
 ├── census-bureau.data
 ├── census-bureau.columns
 └── README.md
@@ -140,5 +141,5 @@ Threshold analysis shows that **0.5** is a good default threshold for balancing 
 
 - All models use `class_weight="balanced"` and survey weights to account for class imbalance and survey design.
 - PCA is used **only for visualization**; clustering uses the full 13-dimensional feature space.
-- The separate report file (`Income_prediction_and_customer_segmentation_report.docx`) summarizes the approach, results, and business implications for a non-technical client audience.
+- The separate report file (`Income_prediction_and_customer_segmentation_report.pdf`) summarizes the approach, results, and business implications for a non-technical client audience.
 ```
